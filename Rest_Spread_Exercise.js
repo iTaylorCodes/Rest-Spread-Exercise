@@ -1,7 +1,3 @@
-const filterByType = (type, ...vals) => {
-	return vals.filter((val) => typeof val === type);
-};
-
 // Refactored function using Rest & Arrow functions
 const filterOutOdds = (...nums) => nums.filter((num) => num % 2 === 0);
 
